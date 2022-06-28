@@ -1,5 +1,5 @@
 
-const RESOLUTION = 800;
+const RESOLUTION = 500;
 
 let flipper = (kernel) => {
   return [kernel[0].reverse(), kernel[1].reverse(), kernel[2].reverse()]

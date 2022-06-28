@@ -12,42 +12,41 @@
     }
 </style>
 <body>
+  <canvas id="myCanvas"></canvas>
   
     <canvas id="c"></canvas>
-    <canvas id="myCanvas"></canvas>
   <img src="" id="image2"></img>
   <img src="testautomata.png" style="display: none;" id="image1"></img>
 <script src="gpu.min.js"></script>
-<script src="https://unpkg.com/merge-images@2.0.0/dist/index.umd.js"></script>
   <script src="three.js"></script>
-<!--     <script type="module" src="GLTFLoader.js"></script> -->
+  
 <script src="main.js"></script>
-  <script>
-    var myCanvas = document.getElementById("myCanvas");
+  <script type="module" src="GLTFLoader.js"></script>
+<script type="module">
+  import { GLTFLoader } from './GLTFLoader.js';
+
+  var myCanvas = document.getElementById("myCanvas");
     var textureCanvas = document.getElementById("c");
 
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 1000);
         var renderer = new THREE.WebGLRenderer({ canvas: myCanvas } );
         renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
+        // document.body.appendChild(renderer.domElement);
 
         var texture = new THREE.CanvasTexture(textureCanvas);
-        
+        texture.encoding = THREE.sRGBEncoding
 
-        const geometry = new THREE.TorusGeometry( 5, 3, 16, 100 );
-        const material = new THREE.MeshBasicMaterial( { map: texture } );
-        const torus = new THREE.Mesh( geometry, material );
-        scene.add( torus );
+        // const geometry = new THREE.TorusGeometry( 5, 3, 16, 100 );
+        // const material = new THREE.MeshBasicMaterial( { map: texture } );
+        // const torus = new THREE.Mesh( geometry, material );
+        // scene.add( torus );
 
 
-        // var loader = new GLTFLoader();
+        var loader = new GLTFLoader();
         // var tex1 = new THREE.TextureLoader().load('textures/pattern1.png');
         // var tex2 = new THREE.TextureLoader().load('textures/pattern2.png');
     	
-
-        
-
         // loader.load('models/scene.gltf', function(gltf){
         //     scene.add(gltf.scene);
         //     gltf.scene.traverse(function(child){
@@ -58,38 +57,34 @@
         //     });
         // tex.flipY = false; // for glTF models.
 
-        // var obj;
-        // loader.load("realtshirt.gltf", function(gltf) {
-        //     obj = gltf.scene;
-        //     // obj.material.map = tex;
-        //     // obj.material.needsUpdate = true;
-        //     scene.add(obj);
-        // });
+        var obj;
+        loader.load("realtshirt.gltf", function(gltf) {
+            obj = gltf.scene;
+            scene.add(obj);
+        });
         scene.background = new THREE.Color(0xffffff);
-        var light = new THREE.HemisphereLight(0xffffff, 0x000000, .2);
+        var light = new THREE.HemisphereLight(0xffffff, 0x000000, 5);
 
         scene.add(light);
-        camera.position.set(0,0,20);
+        camera.position.set(0,.5,1);
 
-        var textureIndex = 0;
+        
+
         function animate() {
-            requestAnimationFrame(animate);
+          requestAnimationFrame(animate);
 
-            // if (textureIndex == 0){
-            //     obj.material.map = tex1;
-            //     textureIndex = 1;
-            // }else{
-            //     obj.material.map = tex2;
-            //     textureIndex = 0;
-            // }
-            // console.log(textureIndex)
-texture.needsUpdate = true;
-          torus.rotation.x += 0.01;
-          torus.rotation.y += 0.01;
+          texture.needsUpdate = true;
+          scene.traverse(function(obj){
+        if(obj.type === 'Mesh'){
+            obj.material.map = texture
+        }
+    });
+          obj.rotation.y += 0.01;
+
             renderer.render(scene, camera);
         }
 
         animate();
-  </script>
+</script>
 </body>
 </html>

@@ -1,0 +1,559 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2,
+                13
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Shirt_low"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Collada visual scene group",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "defaultMaterial.001",
+            "translation" : [
+                0,
+                0.40070515871047974,
+                0
+            ]
+        },
+        {
+            "name" : "Bone.007",
+            "rotation" : [
+                0.19799527525901794,
+                0.003523794934153557,
+                -0.0005469960742630064,
+                0.9801965951919556
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1,
+                0.9999998211860657
+            ],
+            "translation" : [
+                4.0978193283081055e-08,
+                0.2820432782173157,
+                1.862645149230957e-09
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Bone.002",
+            "rotation" : [
+                -0.05590885132551193,
+                -0.001478315214626491,
+                0.1621571034193039,
+                0.9851787090301514
+            ],
+            "scale" : [
+                0.9999998807907104,
+                1.0000001192092896,
+                1
+            ],
+            "translation" : [
+                -4.842877388000488e-08,
+                0.3117818236351013,
+                -1.4435499906539917e-08
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "Bone.001",
+            "rotation" : [
+                0.08958276361227036,
+                -0.017180761322379112,
+                0.8137862682342529,
+                0.5739613771438599
+            ],
+            "scale" : [
+                0.9999999403953552,
+                1,
+                0.9999999403953552
+            ],
+            "translation" : [
+                7.275957614183426e-10,
+                0.7634603977203369,
+                4.2501824282226153e-10
+            ]
+        },
+        {
+            "name" : "Bone.008",
+            "rotation" : [
+                0.1941293478012085,
+                -0.0006624804809689522,
+                -0.050517719238996506,
+                0.9796741008758545
+            ],
+            "scale" : [
+                1,
+                0.9999998807907104,
+                0.9999999403953552
+            ],
+            "translation" : [
+                -2.7939677238464355e-09,
+                0.2903732657432556,
+                0
+            ]
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "Bone.004",
+            "rotation" : [
+                -0.06747749447822571,
+                -1.443185766447641e-07,
+                -0.14350974559783936,
+                0.987345814704895
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                -9.313225746154785e-09,
+                0.2890157699584961,
+                1.3969838619232178e-08
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "Bone.003",
+            "rotation" : [
+                -0.013591572642326355,
+                -0.03519962728023529,
+                -0.8142465353012085,
+                0.579291820526123
+            ],
+            "scale" : [
+                0.9999998807907104,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                7.275957614183426e-10,
+                0.7634603977203369,
+                4.2501824282226153e-10
+            ]
+        },
+        {
+            "name" : "Bone.005",
+            "rotation" : [
+                0.062107447534799576,
+                4.853128743320667e-08,
+                0.01904909871518612,
+                0.9978877305984497
+            ],
+            "scale" : [
+                1,
+                1,
+                0.9999999403953552
+            ],
+            "translation" : [
+                7.275957614183426e-10,
+                0.7634603977203369,
+                4.2501824282226153e-10
+            ]
+        },
+        {
+            "name" : "Bone.006",
+            "rotation" : [
+                0.7036975026130676,
+                -4.0399243950162145e-09,
+                0.00012618990149348974,
+                0.7104997038841248
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation" : [
+                7.275957614183426e-10,
+                0.7634603977203369,
+                4.2501824282226153e-10
+            ]
+        },
+        {
+            "children" : [
+                6,
+                9,
+                10,
+                11
+            ],
+            "name" : "Bone",
+            "rotation" : [
+                -0.06209968402981758,
+                -0.0007081132498569787,
+                -0.011100617237389088,
+                0.9980080723762512
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999999403953552,
+                1
+            ]
+        },
+        {
+            "children" : [
+                3,
+                12
+            ],
+            "name" : "Armature",
+            "translation" : [
+                0,
+                -0.007278486154973507,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Shirt",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "fabric_fuzz",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "sleeves",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "defaultMaterial.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Shirt_normal",
+            "uri" : "textures/Shirt_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Shirt_metallicRoughness",
+            "uri" : "textures/Shirt_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "brhu",
+            "uri" : "textures/brhu.png"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 12,
+            "joints" : [
+                12,
+                6,
+                5,
+                4,
+                9,
+                8,
+                7,
+                10,
+                11
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 34747,
+            "max" : [
+                0.3078247904777527,
+                0.4306468963623047,
+                0.20180033147335052
+            ],
+            "min" : [
+                -0.3217692971229553,
+                -0.4358760118484497,
+                -0.20235295593738556
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 34747,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 34747,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 203892,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2189,
+            "max" : [
+                0.31250816583633423,
+                -0.3247714042663574,
+                0.1228903979063034
+            ],
+            "min" : [
+                -0.3429218530654907,
+                -0.40478432178497314,
+                0.027841705828905106
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2189,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 12384,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 58380,
+            "max" : [
+                0.40448251366615295,
+                0.43655985593795776,
+                0.12648694217205048
+            ],
+            "min" : [
+                -0.3895326852798462,
+                -0.40599825978279114,
+                -0.15681052207946777
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 58380,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 58380,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 344448,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 9,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 416964,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 416964,
+            "byteOffset" : 416964
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 277976,
+            "byteOffset" : 833928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 407784,
+            "byteOffset" : 1111904
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26268,
+            "byteOffset" : 1519688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26268,
+            "byteOffset" : 1545956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17512,
+            "byteOffset" : 1572224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24768,
+            "byteOffset" : 1589736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 700560,
+            "byteOffset" : 1614504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 700560,
+            "byteOffset" : 2315064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 467040,
+            "byteOffset" : 3015624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 688896,
+            "byteOffset" : 3482664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 4171560
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4172136,
+            "uri" : "realtshirt.bin"
+        }
+    ]
+}
